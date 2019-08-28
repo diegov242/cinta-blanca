@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mi hoja de vida</title>
+</head>
+<body>
+   <header>
+       <h1>hoja de vida diego vergara</h1>
+   </header> 
+   <hr>
+   <nav>
+       <a href="index.html">home</a>
+       <a href="educacion.html">educacion</a>
+       <a href="multimedia.html">multimedia</a>
+   </nav>
+   <hr>
+    <main>
+        <h2>educacion recibida</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>año</th>
+                    <th>institucion</th>
+                    <th>lugar</th>
+                    <th>titulo</th>
+                    <th>¿culminó?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2004</td>
+                    <td>unesam</td>
+                    <td>envigado</td>
+                    <td>bachiller</td>
+                    <td>si</td>
+                </tr>
+                <tr>
+                    <td>2015</td>
+                    <td>upb</td>
+                    <td>medellin</td>
+                    <td>ingenieria</td>
+                    <td>si</td>
+                </tr>
+                <tr>
+                    <td>2019</td>
+                    <td>devf</td>
+                    <td>medellin</td>
+                    <td>cintablanca</td>
+                    <td>no</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+       <form>
+           <fieldset>
+            <legend>informacion</legend>
+           <h2>agregar estudios</h2>
+           <label for="anos">año</label>
+           <select name="anos">
+               <option value="2019">2019</option>
+               <option value="2018">2018</option>
+               <option value="2017">2017</option>
+               <option value="2016">2016</option>
+           </select>
+           <br>
+           <br>
+           <label for="ins">institucion</label>
+           <input type="text"name="inst"placeholder="ingrese institucion"required>
+           <br>
+           <br>
+           <label for="num">edad</label>
+           <input type="number"placeholder="ingrese su edad">
+           <br>
+           <br>
+           <input type="password"placeholder="ingrese su contraseña" minlength="1"maxlength="8"required>
+           <br>
+           <input type="date"placeholder="ingrese fecha de naciemiento">
+           <br>
+           <br>
+           <input type="email"placeholder="ingrese su email">
+           <br>
+           <br>
+           <label for="cometarios">cometarios:</label>
+           <br>
+            <textarea name="comentarios" id="" cols="30" rows="10"></textarea>
+            <br>
+            <br>
+            <input type="radio"name="genero"value="F">femenino
+            <input type="radio"name="genero"value="M">masculino
+            <br>
+            <br>
+            <input type="checkbox">si</input>
+            <input type="checkbox">no
+            <br>
+            <br>
+            <input type="submit">
+            <button onclick>enviar formulario</button>
+        </fieldset>
+       </form>
+       <br>
+       <form>
+           <fieldset>
+                <label for="name">nombre</label>
+               <input type="name"placeholder="ingrese su nombre">
+               <br>
+               <br>
+               <label for="tel">telefono</label>
+               <input type="tel"placeholder="ingrese su numero telefonico">
+               <br>
+               <br>
+               <label for="ins">email</label>
+               <input type="email"placeholder="ingrese su email">
+               <br>
+               <br>
+               <label for="cometarios">cometarios:</label>
+                <br>
+               <textarea name="comentarios" id="" cols="30" rows="10"></textarea>
+               <br>
+               <input type="checkbox"><a href="acepta terminos y condiciones"></a></input>
+        </fieldset>
+       </form>
+   </main>
+   <hr>
+   <footer>
+<p>todos los derechos reservados<a href="https://es-la.facebook.com/" target="facebook"></a>|<a href="mailto.vergara242@hotmail.com">escribeme</a></p>
+   </footer>
+</body>
+</html>
